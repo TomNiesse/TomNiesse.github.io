@@ -1,118 +1,90 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>untagged on Tom&#39;s blog</title>
+    <title>Untagged on Tom&#39;s blog</title>
     <link>https://tomniesse.github.io/tags/untagged/</link>
-    <description>Recent content in untagged on Tom&#39;s blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <description>Recent content in Untagged on Tom&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 06 Sep 2023 13:22:00 +0200</lastBuildDate><atom:link href="https://tomniesse.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Jul 2024 22:25:00 +0200</lastBuildDate>
+    <atom:link href="https://tomniesse.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WIP: Building a PetaLinux image for the EBAZ4205 board</title>
+      <link>https://tomniesse.github.io/posts/building-a-petalinux-image-for-ebaz4205/</link>
+      <pubDate>Wed, 10 Jul 2024 22:25:00 +0200</pubDate>
+      <guid>https://tomniesse.github.io/posts/building-a-petalinux-image-for-ebaz4205/</guid>
+      <description>This work in progress post describes how a PetaLinux image can be built for the EBAZ4205 FPGA board. There are already some great tutorials online, which explain how to run a verilog project on the Xilinx Zynq 7000 FPGA. This blogpost takes snippets of the existing tutorials, with the goal of creating a new PetaLinux image for the board.&#xA;What is the EBAZ4205? The EBAZ4205 is a cheap FPGA-board, available on sites like AliExpress.</description>
+    </item>
     <item>
       <title>Installing linux on a q8 Allwinner A13 tablet</title>
       <link>https://tomniesse.github.io/posts/q88-tablet-allwinner-a13-embedded-linux/</link>
       <pubDate>Wed, 06 Sep 2023 13:22:00 +0200</pubDate>
-      
       <guid>https://tomniesse.github.io/posts/q88-tablet-allwinner-a13-embedded-linux/</guid>
-      <description>In this post, I will try to install linux on a q8 (Allwinner A13 based) tablet. Multiple people have already succeeded in running debian/arch on the tablet, so it must be possible.
-The q8 tablet The q8 tablet is a cheap chinese android tablet that runs Android 4.1.
-Looking at a page on linux-sunxi.org, I believe I have the q88 variant of the tablet. I&amp;rsquo;m not sure about this though. This blogpost will use the terms q8 and q88 interchangeably.</description>
+      <description>In this post, I will try to install linux on a q8 (Allwinner A13 based) tablet. Multiple people have already succeeded in running debian/arch on the tablet, so it must be possible.&#xA;The q8 tablet The q8 tablet is a cheap chinese android tablet that runs Android 4.1.&#xA;Looking at a page on linux-sunxi.org, I believe I have the q88 variant of the tablet. I&amp;rsquo;m not sure about this though. This blogpost will use the terms q8 and q88 interchangeably.</description>
     </item>
-    
     <item>
       <title>Daisy chained routers and IPv6 (NAT66)</title>
       <link>https://tomniesse.github.io/posts/nat66/</link>
       <pubDate>Sun, 04 Jun 2023 11:28:55 +0200</pubDate>
-      
       <guid>https://tomniesse.github.io/posts/nat66/</guid>
-      <description>For a very specific problem, I needed to daisy chain some routers. This is easily done with IPv4, since it has has NAT. But what about IPv6?
-The issue I recently bought a cheap second hand router. I did this to split the incoming WAN-connection into two LAN-connections. One LAN-connection goes to a separate network with a specific purpose. The other LAN-connection serves as a WAN for another router. The second router is not mounted near a fuse box and can serve much better wifi to the entire house.</description>
+      <description>For a very specific problem, I needed to daisy chain some routers. This is easily done with IPv4, since it has has NAT. But what about IPv6?&#xA;The issue I recently bought a cheap second hand router. I did this to split the incoming WAN-connection into two LAN-connections. One LAN-connection goes to a separate network with a specific purpose. The other LAN-connection serves as a WAN for another router. The second router is not mounted near a fuse box and can serve much better wifi to the entire house.</description>
     </item>
-    
     <item>
       <title>Hosting a lokinet SNApp from inside a docker container</title>
       <link>https://tomniesse.github.io/posts/lokinet-inside-docker/</link>
       <pubDate>Fri, 28 Apr 2023 13:28:55 +0200</pubDate>
-      
       <guid>https://tomniesse.github.io/posts/lokinet-inside-docker/</guid>
       <description>What is lokinet? Like the tor project, lokinet is a decentralized onion router that routes (all) traffic through multiple other servers. The nice thing about it is, that it runs on a lower network layer than tor. This makes lokinet able to route traffic using any network protocol, instead of sending everything over TCP. A good example of this is SSH. If a lokinet server is hosting an SSH or VPN service, it can be accessed without the need for port forwarding.</description>
     </item>
-    
     <item>
       <title>Printing ABS using an Ender 3 (v1), without an enclosure</title>
       <link>https://tomniesse.github.io/posts/ender3-abs-printing/</link>
       <pubDate>Sun, 09 Apr 2023 13:28:55 +0200</pubDate>
-      
       <guid>https://tomniesse.github.io/posts/ender3-abs-printing/</guid>
-      <description>Introduction When looking for a guide on how to print ABS using a cheap printer, people usually say &amp;ldquo;it&amp;rsquo;s impossible&amp;rdquo;, &amp;ldquo;it requires a printer enclosure&amp;rdquo; or &amp;ldquo;you just have to remove the fans&amp;rdquo;.
-I disagree with all those statements. In this youtube video, someone put duct tape on their Ender 3 and was able to print ABS just fine.
-And if someone else can do it, it must be possible.</description>
+      <description>Introduction When looking for a guide on how to print ABS using a cheap printer, people usually say &amp;ldquo;it&amp;rsquo;s impossible&amp;rdquo;, &amp;ldquo;it requires a printer enclosure&amp;rdquo; or &amp;ldquo;you just have to remove the fans&amp;rdquo;.&#xA;I disagree with all those statements. In this youtube video, someone put duct tape on their Ender 3 and was able to print ABS just fine.&#xA;And if someone else can do it, it must be possible.</description>
     </item>
-    
     <item>
       <title>Creating an embedded OS that runs a DOS game</title>
       <link>https://tomniesse.github.io/posts/buildroot-dune-dynasty/</link>
       <pubDate>Tue, 21 Dec 2021 13:28:55 +0200</pubDate>
-      
       <guid>https://tomniesse.github.io/posts/buildroot-dune-dynasty/</guid>
-      <description>Introduction This page explains how the game &amp;ldquo;Dune Dynasty II&amp;rdquo; can be ran on an embedded linux OS. The OS is created using buildroot.
-All required configurations and compile-commands are documented on this page.
-The below image shows the game (and embedded OS) running.
-
-Previous work This post is based on another post in which a basic embedded OS is created. However, the toolchain used uClibc as C library, which will not work here.</description>
+      <description>Introduction This page explains how the game &amp;ldquo;Dune Dynasty II&amp;rdquo; can be ran on an embedded linux OS. The OS is created using buildroot.&#xA;All required configurations and compile-commands are documented on this page.&#xA;The below image shows the game (and embedded OS) running.&#xA;Previous work This post is based on another post in which a basic embedded OS is created. However, the toolchain used uClibc as C library, which will not work here.</description>
     </item>
-    
     <item>
       <title>Creating an access point using buildroot</title>
       <link>https://tomniesse.github.io/posts/buildroot-ap/</link>
       <pubDate>Mon, 20 Dec 2021 13:28:55 +0200</pubDate>
-      
       <guid>https://tomniesse.github.io/posts/buildroot-ap/</guid>
-      <description>Introduction This page describes how a minimal router OS can be created using buildroot.
-All configurations and build commands are documented on this page.
-The resulting OS will boot, connect to the first LAN-network it can find and then start an access point.
-Previous work This post is based on another post in which a basic embedded OS is created.
-Editing the minimal Buildroot OS Configuring the access point part of the target system With the options above all set, the Raspberry Pi 4 should boot the target system without any issues.</description>
+      <description>Introduction This page describes how a minimal router OS can be created using buildroot.&#xA;All configurations and build commands are documented on this page.&#xA;The resulting OS will boot, connect to the first LAN-network it can find and then start an access point.&#xA;Previous work This post is based on another post in which a basic embedded OS is created.&#xA;Editing the minimal Buildroot OS Configuring the access point part of the target system With the options above all set, the Raspberry Pi 4 should boot the target system without any issues.</description>
     </item>
-    
     <item>
       <title>Introduction to docker(-compose)</title>
       <link>https://tomniesse.github.io/posts/docker/</link>
       <pubDate>Sun, 05 Dec 2021 13:28:55 +0200</pubDate>
-      
       <guid>https://tomniesse.github.io/posts/docker/</guid>
       <description>What is Docker? Docker is software that allows other programs and OS&amp;rsquo;es to run inside a container. There are other virtualization programs that can do the same (VMWare, VirtualBox, QEMU, etc.), but Docker allows building a container using a script. This script is called a Dockerfile. In addition to this, the package docker-compose allows running multiple dockerfiles at once. This way, multiple containers can run simultaneously and work together to get a certain task done.</description>
     </item>
-    
     <item>
       <title>Creating a minimal OS using buildroot (Raspberry Pi)</title>
       <link>https://tomniesse.github.io/posts/buildroot/</link>
       <pubDate>Thu, 18 Nov 2021 13:28:55 +0200</pubDate>
-      
       <guid>https://tomniesse.github.io/posts/buildroot/</guid>
-      <description>What is an embedded OS? An Embedded Operating System is an Operating System designed to run on specific hardware. For example, many smart TV&amp;rsquo;s these days are running an embedded OS. Because the OS is made for the specific hardware, it can be configured to start up in the blink of an eye.
-What is Buildroot? Buildroot, just like the yocto project, is a set of tools to help automate the build process of an embedded Linux based OS.</description>
+      <description>What is an embedded OS? An Embedded Operating System is an Operating System designed to run on specific hardware. For example, many smart TV&amp;rsquo;s these days are running an embedded OS. Because the OS is made for the specific hardware, it can be configured to start up in the blink of an eye.&#xA;What is Buildroot? Buildroot, just like the yocto project, is a set of tools to help automate the build process of an embedded Linux based OS.</description>
     </item>
-    
     <item>
       <title>C and SDL2 programming</title>
       <link>https://tomniesse.github.io/posts/c-sdl2-programming/</link>
       <pubDate>Thu, 04 Nov 2021 13:28:55 +0200</pubDate>
-      
       <guid>https://tomniesse.github.io/posts/c-sdl2-programming/</guid>
       <description>Working with SDL2 and C This post will show snippets of code that can be used to make an SDL2 application. This post serves mostly as a personal reminder of how the basics of SDL2 work. Much more advanced things can be done using SDL2, especially if it&amp;rsquo;s combined with a language like C++. C++ has classes, which make it much easier to create more advanced programs (like a basic game).</description>
     </item>
-    
     <item>
       <title>Programming a character device driver (PinePhone and Linux)</title>
       <link>https://tomniesse.github.io/posts/pinephone-linux-kernel-programming/</link>
       <pubDate>Wed, 03 Nov 2021 13:28:55 +0200</pubDate>
-      
       <guid>https://tomniesse.github.io/posts/pinephone-linux-kernel-programming/</guid>
-      <description>Introduction This page describes the process of writing a kernel module that can toggle an LED inside a PinePhone UBports edition.
-Using the user manual of the phone&amp;rsquo;s processor (Allwinner A64), a kernel module will be written that can control the RGB-LED of the phone.
-What is a kernel module? A kernel is a piece of software that handles all the communications between hardware and software. The linux kernel uses modules for this.</description>
+      <description>Introduction This page describes the process of writing a kernel module that can toggle an LED inside a PinePhone UBports edition.&#xA;Using the user manual of the phone&amp;rsquo;s processor (Allwinner A64), a kernel module will be written that can control the RGB-LED of the phone.&#xA;What is a kernel module? A kernel is a piece of software that handles all the communications between hardware and software. The linux kernel uses modules for this.</description>
     </item>
-    
   </channel>
 </rss>
